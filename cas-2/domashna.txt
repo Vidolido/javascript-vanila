@@ -1,0 +1,12 @@
+Za doma treba da se napravi programa koja sto ke funkcionira kako kalkulator.
+Imate dve promenlivi za brojkite i imate edna promenliva za operacijata.
+Programata treba da go ispecat rezultatot od vnesenata operacija vrz dvete brojki.
+Validni operacii se +, -, *, /, %
+DELENJE SO NULA? TREBA DA ISPECATI GRESKA
+
+Primer:
+const number1 = 10
+const number2 = 5
+const operation = '/'
+
+Output: 10 / 5 = 2

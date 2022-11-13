@@ -1,0 +1,11 @@
+1. Da se napise programa koja sto dve nizi so ista dolzina kje gi spoi vo edna niza. Elementite od prvata niza treba da se zacuvaat na parnite pozicii od rezultantnata niza, a elementite od vtorata niza na neparnite pozicii od rezultantnata niza
+
+2. Od proizvolna lista so broevi da se ispecati koj e najmaliot, a koj e najgolemiot broj
+
+3. Od proizvolna lista so broevi da se pronajde dali ima duplikati od bilo koj element.
+
+4. Od proizvolna niza so bukvi da se formira zbor, na toj nacin sto sekoja bukva kje se spoi so narednata za da formira string.
+primer: ["z", "d", "r", "a", "v", "o"] ===> "zdravo"
+
+5. Da se napise programa koja sto kje proveri dali vo nekoja proizvolna niza ima pod-niza, i dokolku ima site elementi od podnizata da se dodadat na krajot od originalnata niza.
+Primer: [1, 2, [3, 4], 5, 6] ===> [1, 2, 5, 6, 3, 4]
