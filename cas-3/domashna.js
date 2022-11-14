@@ -56,7 +56,7 @@ console.log(zdravoString);
 // 5. Da se napise programa koja sto kje proveri dali vo nekoja proizvolna niza ima pod-niza, i dokolku ima site elementi od podnizata da se dodadat na krajot od originalnata niza.
 // Primer: [1, 2, [3, 4], 5, 6] ===> [1, 2, 5, 6, 3, 4]
 
-const originalNiza = [1, 2, [3, 4], 5, 6];
+const originalNiza = [1, 2, [3, 4], 5,[7,8], 6];
 for(let i = 0; i < originalNiza.length; i++) {
     if(originalNiza[i].length > 0) {
         let arrayElement = originalNiza[i];
@@ -66,4 +66,5 @@ for(let i = 0; i < originalNiza.length; i++) {
         }
     }
 }
+
 console.log(originalNiza)
