@@ -16,9 +16,9 @@ console.log(notMail, 'Prva zadacha');
 
 // Primer: const names = ['koco nica', 'alek Dimitriev'] => ['Koco Nica', 'Alek Dimitriev']
 
-let names = ['koco nica', 'alek Dimitriev', 'Boshko Boshkovski', 'Blagoja dimchevski','vlajkovski'];
+let names = ['koco nica', 'alek Dimitriev', 'Boshko Boshkovski', 'Blagoja dimchevski', 'vlajkovski', 'viktorija velika juntev'];
 
-const checkForUppercase = checkArray => {
+const checkForUppercase = (checkArray) => {
         let namesCorected = [];
         checkArray.forEach((nameCheck, index) => {
         const nameArray = nameCheck.split(' ');
@@ -26,7 +26,12 @@ const checkForUppercase = checkArray => {
     })
     return namesCorected;
 }
+
 console.log(checkForUppercase(names), 'Vtora zadacha');
+
+// so map();
+
+
 
 // 3. Imame nizaod zivotni na farma.
 // Sekoe zivotno e objekt i si ima svoe property broj na noze, i plus drugi svojstva
